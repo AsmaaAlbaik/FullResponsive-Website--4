@@ -1,0 +1,67 @@
+/* Start media Query */
+
+
+
+/*this style from 0 screen to mobile screen*/ 
+@media (max-width:768px){
+
+    .header .intro h1 {
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .header .intro p {
+        font-size: 20px;
+    }
+
+    .header .arrow{
+        left: 44%
+    }
+
+    .features .item p {
+
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .sub form {
+        margin-top: 22%
+    }
+    .sub a {
+        float: none
+    }
+    .our-work h2 ~ p ,.contact p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .our-team p {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .our-team .the-team .persone p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact {
+        height: 750px
+    }
+    .contact .social {
+        float: none
+        
+    }
+  
+    .contact .social i {    
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+}
+
+/*from small to media screen*/
+@media (min-width:768px) and (max-width:991px){
+   
+}
+
+/* End media Query */
